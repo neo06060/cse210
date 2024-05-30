@@ -4,7 +4,7 @@ class Video
 {
     private string title;
     private string author;
-    private int length; // in seconds
+    private int length; 
     private List<Comment> comments;
     public Video(string title, string author, int length)
     {
